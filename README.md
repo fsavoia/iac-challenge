@@ -14,7 +14,7 @@ IaC challenge for Cocus.
 
 ## Comments
 
-While it's clear this is a test scenario, these are two quick wins that wouldn't be hard to implement and wouldn't alter the functionalities
+While it's clear this is a test scenario, these are two quick wins for security that wouldn't be hard to implement and wouldn't alter the functionalities:
 
 * Security Groups
   * It's safer to associate the inbound rule of the private SG (used for DB) to the SG used in the public instances, that way even if there are more servers in that subnet, if they don't have the correct security group
